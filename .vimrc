@@ -2,11 +2,11 @@
 set encoding=utf8
 set termencoding=utf8
 set laststatus=2
-let g:lightline = {'colorscheme': 'jellybeans'}
+let g:lightline = {'colorscheme': 'jellybean'}
 
-" basic settings
-set tabstop=4
-set shiftwidth=4
+""basic settings
+set tabstop=8
+set shiftwidth=8
 set expandtab
 set smartindent
 set t_Co=256
@@ -81,3 +81,6 @@ imap {{ {{}}<Esc>hi
 
 "tab completion for emmet.vim
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+
+retab
+set nowrap
